@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --cor-01: #06c;
+    --cor-02: #460606;
+    --cor-03: #ccc;
+    --cor-04: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Opens Sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container img{
+    max-width: 700px;
+    
+}
+
+#cabecalho {
+    background-color: var(--cor-02);
+    margin-bottom: 40px;
+}
+#cabecalho #menu ul li {
+    list-style: none;
+}
+p{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+h1{
+    margin-top: 30px;
+    text-align: center;
+}
+#bc{
+    float: left;
+    margin-right: 20px;
+}
+
+#cabecalho .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#span{
+    background-color: #460606;
+}
+#cabecalho #menu ul {
+    display: flex; 
+}
+
+#cabecalho #menu ul li {
+    list-style: none;
+}
+.but{
+    display: block;
+    background-color: #460606;
+    padding: 20px;
+    border-radius: 30px;
+    color: var(--cor-04);
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    max-width: 300px;
+    margin: 0 auto;
+    transition: all 0.3s linear;
+}
+#cabecalho #menu ul li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: var(--cor-03);
+    transition: all 0.5s linear;
+    
+}
+
+#cabecalho #menu ul li a:hover {
+    background-color: var(--cor-01);
+}
+
+#rodape{
+    margin-top: 30px;
+    text-align: center;
+    background-color: #999;
+    padding: 20px;
+}
+
+
+.classes{
+    margin-bottom: 20px;
+}
+
+.classes img{
+    margin-right: 30px;
+    width: 400px;
+    float:left;
+    margin-bottom: 20px;
+}
+
+.classes p{
+    margin: 5px;
+}
+
+#bc2{
+    width: 300px;
+}
+
+.titulo_classes{
+    margin-bottom: 20px;  
+}
+
+#dk {
+    color: red;
+}
+#dw {
+    color: blue;
+}
+#elf {
+    color: green;
+}
